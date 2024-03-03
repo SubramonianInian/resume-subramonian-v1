@@ -1,0 +1,44 @@
+@media only screen and (max-width: 768px) {
+    .app-wrapper {
+        display: block;
+        flex-direction: column;
+        background-color: rgb(29, 30, 32);
+        overflow: auto;
+    }
+
+    .left {
+        width: 100%;
+    }
+
+    .right {
+        height: 100vh;
+        overflow: visible;
+    }
+
+    .right .relevant-experience .job-description {
+        margin-left: 1rem;
+    }
+
+    .left .personal-info .core-content>h1 {
+
+        font-size: 2.5em;
+        text-align: center;
+    }
+
+    .left .personal-info {
+        bottom: 25;
+    }
+
+    .core-information {
+        flex-direction: column;
+    }
+
+    .key-skills-wrapper {
+        display: block;
+        min-width: 100%;
+    }
+
+    .company-name {
+        margin-bottom: 1rem;
+    }
+}
